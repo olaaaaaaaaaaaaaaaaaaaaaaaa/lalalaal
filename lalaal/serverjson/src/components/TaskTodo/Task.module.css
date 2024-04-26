@@ -1,0 +1,26 @@
+.btn{
+    margin-left: 10px;
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 6px ;
+    width: 60%;
+margin: 0 auto;
+
+}
+.listItems:hover{
+    background: rgb(189, 185, 185);
+    border-radius: 6px;
+}
+
+.abc{
+    display: flex;
+    gap: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+
+
