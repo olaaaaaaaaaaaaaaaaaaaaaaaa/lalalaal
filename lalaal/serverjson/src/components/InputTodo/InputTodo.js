@@ -65,8 +65,8 @@ const InputTodo = () => {
   };
 
   const filter = () => {
-    const filteredTodo = todo.filter((task) =>
-      task.title.toLowerCase().includes(search.toLowerCase())
+    const filteredTodo = todo.filter((item) =>
+      item.title.toLowerCase().includes(search.toLowerCase())
     );
     setTodo(filteredTodo);
   };
